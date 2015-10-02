@@ -31,6 +31,9 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
+require "vitruvius"
+require "vitruvius/parser/json_schema"
+
 parser = Vitruvius::Parser::JSONSchema.new(path_to_schema)
 app = Vitruvius::App.new(parser).build
 # => returns a Sinatra application
