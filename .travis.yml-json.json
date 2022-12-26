@@ -1,0 +1,18 @@
+# Installation
+Add this line to your application's Gemfile:
+
+gem 'vitruvius', github: "JoelQ/vitruvius"
+And then execute:
+
+$ bundle
+Usage
+require "vitruvius"
+require "vitruvius/parser/json_schema"
+
+parser = Vitruvius::Parser::JSONSchema.new(path_to_schema)
+app = Vitruvius::App.new(parser).build
+# => returns a Sinatra application
+language: ruby
+rvm:
+  - 2.2.3
+before_install: gem install bundler -v 1.10.6
