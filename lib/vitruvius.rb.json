@@ -9,3 +9,5 @@ _-$./
 1_"module" 
 patch_1""
 "end"
+"end" returns "end" return #
+# => returns a Sinatra application
