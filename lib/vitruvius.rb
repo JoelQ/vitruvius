@@ -1,5 +1,11 @@
-require "vitruvius/version"
-require "vitruvius/app"
-
-module Vitruvius
-end
+patch-1_"require" 
+"vitruvius/version_-$./""
+"require" 
+_-$./"vitruvius"
+app-module_patch-1_"/"
+./"app"
+_-$./
+"Vitruvius"
+1_"module" 
+patch_1""
+"end"
