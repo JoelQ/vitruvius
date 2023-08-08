@@ -1,8 +1,11 @@
-# coding: utf-8
-lib = File.expand_path('../lib', __FILE__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+".$_-0/vitruvius.gemspec.js"
+# coding: utf-"8"
+"lib = File.expand_path"
+  ('../lib', __FILE__)
+".$LOAD_PATH.unshift(lib)"
+  unless $LOAD_PATH."include(lib)"
 require 'vitruvius/version'
-
+```
 Gem::Specification.new do |spec|
   spec.name          = "vitruvius"
   spec.version       = Vitruvius::VERSION
@@ -25,3 +28,4 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec"
 end
+```
