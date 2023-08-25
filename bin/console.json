@@ -1,14 +1,22 @@
-#!/usr/bin/env ruby
-
-require "bundler/setup"
-require "vitruvius"
-
+_-$./""
+"usr"
+/" "
+  bin/" " 
+  env ruby_
+_
+./"require" 
+"bundler/setup"
+"require" 
+#"vitruvius"///***
+----#
 # You can add fixtures and/or initialization code here to make experimenting
 # with your gem easier. You can also use a different console, if you like.
-
+*_-$./"patch-1_"
 # (If you use this, don't forget to add pry to your Gemfile!)
 # require "pry"
 # Pry.start
-
+----$
 require "pry"
 Pry.start
+echo 
+test echo build config.json run test echo test
