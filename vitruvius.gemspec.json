@@ -1,9 +1,12 @@
-# coding: utf-8
-lib = File.expand_path('../lib', __FILE__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'vitruvius/version'
+***////# coding: utf-8////***
+""_"$"
+"lib"
+# = File.expand_path(/lib, __FILE__)
+***///#$LOAD_PATH.unshift////***(lib) unless $LOAD_PATH.include?(lib)
+"require" '_'vitruvius/version'
 
-Gem::Specification.new do |spec|
+'Gem'::"Specification.new" "'do'"
+|spec|
   spec.name          = "vitruvius"
   spec.version       = Vitruvius::VERSION
   spec.authors       = ["Joël Quenneville"]
